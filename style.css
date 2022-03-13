@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+* {
+    box-sizing: border-box;
+  }
+
+/* utilites */
+h1,h4,h5,p {
+    margin: 0;
+}
+
+.bg__dark {
+    background-color: #212121;
+}
+.bg__light {
+    background-color: aqua !important;
+}
+.text__light {
+    color: #fff;
+}
+.btn__dark {
+    display: inline-block;
+    background-color: #212121;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 100px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+}
+
+.btn__light {
+    display: inline-block;
+    background-color:#fff;
+    color:  #212121;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 100px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+}
+.btn__dark {
+    background-color: #212121;
+}
+.btn__light {
+    background-color: aqua;
+}
+.btn__dark:hover {
+    background-color: #fff;
+    color: aqua;
+}
+
+.margin__top {
+    margin-top: 15px;
+}
+.image__resposive {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navbar */
+.navbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #212121;
+    
+} 
+.navbar ul li {
+    display: inline-block;
+  
+}
+.navbar li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: 15px;
+    color: aqua;
+    letter-spacing: 4px;
+
+}
+
+/* Hero section */ 
+.hero__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    background-image:linear-gradient(aqua, aqua) ,url("./img/hero.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.hero__text {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero__text h1 {
+    font-size: 100px;
+    font-weight: 500;
+}
+.hero__text p {
+    letter-spacing: 5px;
+}
+
+
